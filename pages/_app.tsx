@@ -1,13 +1,17 @@
+import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/navbar.css'
+
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <>
-  <div className="App">
-</div>
-<Component {...pageProps} />
-</>
 
-}
 
+function MyApp({ Component, pageProps }) {
+    return (
+    <>
+    
+        <Component {...pageProps} />
+   
+    </>
+    )
+  }
 export default MyApp

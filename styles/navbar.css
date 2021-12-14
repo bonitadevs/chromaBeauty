@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://use.typekit.net/qhr1trp.css");
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    z-index: 0;
+  }
+
+  .nav {
+    font-family: ff-scala-sans-pro,sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
